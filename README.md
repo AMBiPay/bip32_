@@ -5,7 +5,7 @@ This project implements various FIDO2 protocol schemes for authentication and re
 ## Project Structure
 
 ### Core Protocol Implementations
-- `SchemeBip32.java`: Basic BIP32 protocol implementation
+- `SchemeBip32.java`: Basic BIP32PA protocol implementation
 - `SchemeBip32Mu.java`: BIP32MU protocol implementation
 - `SchemeBip32Su.java`: BIP32SU protocol implementation
 - `SchemeBip32MuPlus.java`: Enhanced BIP32MU protocol implementation
