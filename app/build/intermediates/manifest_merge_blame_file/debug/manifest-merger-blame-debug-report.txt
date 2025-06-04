@@ -1,0 +1,266 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.AuthDemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+11-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:4:5-74
+11-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:4:22-71
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:5:5-77
+12-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:5:22-74
+13    <!-- HMS-SDK引导升级HMS功能，访问OTA服务器需要网络权限 -->
+14    <uses-permission android:name="android.permission.INTERNET" /> <!-- 检测网络状态 -->
+14-->[com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:10:5-67
+14-->[com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:10:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 如果是安卓8.0，应用编译配置的targetSdkVersion>=26，请务必添加以下权限 -->
+15-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:12:5-79
+15-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:12:22-76
+16    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- 应用市场9.0版本必须使用该权限获取用户的服务地 -->
+16-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:14:5-83
+16-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:14:22-80
+17    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA" />
+17-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:16:5-106
+17-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:16:22-103
+18
+19    <queries>
+19-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:18:5-27:15
+20        <intent>
+20-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:19:9-21:18
+21            <action android:name="com.apptouch.intent.action.update_hms" />
+21-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:20:13-76
+21-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:20:21-73
+22        </intent>
+23        <intent>
+23-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:19:9-21:18
+24            <action android:name="com.huawei.appmarket.intent.action.AppDetail" />
+25        </intent>
+26
+27        <package android:name="com.hisilicon.android.hiRMService" />
+27-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:26:9-69
+27-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:26:18-66
+28    </queries>
+29    <queries>
+29-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:18:5-27:15
+30        <intent>
+30-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:19:9-21:18
+31            <action android:name="com.huawei.hms.core.aidlservice" />
+32        </intent>
+33        <intent>
+33-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:19:9-21:18
+34            <action android:name="com.huawei.hms.core" />
+35        </intent>
+36    </queries>
+37
+38    <application
+38-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:6:5-37:19
+39        android:allowBackup="true"
+39-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:7:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\9dccb568ccc70bbfdbdf709b60f8f71a\core-1.1.0\AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:extractNativeLibs="false"
+43        android:icon="@mipmap/ic_launcher"
+43-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:8:9-43
+44        android:label="@string/app_name"
+44-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:9:9-41
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:10:9-54
+46        android:supportsRtl="true"
+46-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:11:9-35
+47        android:theme="@style/AppTheme"
+47-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:12:9-40
+48        android:usesCleartextTraffic="true" >
+48-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:13:9-44
+49
+50        <!-- <service android:name=".ServerService" -->
+51        <!-- android:exported="true" /> -->
+52        <!-- <receiver android:name=".MyReceiver"> -->
+53        <!-- <intent-filter> -->
+54        <!-- <action android:name="com.android.AuthDemo.ACTION_RECEIVE_DATA" /> -->
+55        <!-- </intent-filter> -->
+56        <!-- </receiver> -->
+57        <!-- <service -->
+58        <!-- android:name=".MyJobIntentService" -->
+59        <!-- android:permission="android.permission.BIND_JOB_SERVICE" /> -->
+60        <activity android:name="com.sample.authenticator.Fido2DemoMainActivity" >
+60-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:26:9-35:20
+60-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:26:19-80
+61            <intent-filter>
+61-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:27:13-34:29
+62
+63                <!-- <action android:name="com.android.AuthDemo.APPEND_DATA" /> -->
+64                <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+65
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:31:17-69
+66-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:31:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:33:17-77
+68-->C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:33:27-74
+69            </intent-filter>
+70        </activity>
+71
+72        <meta-data
+72-->[com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:14:9-16:52
+73            android:name="com.huawei.hms.client.service.name:fido-fido2"
+73-->[com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:15:13-73
+74            android:value="fido-fido2:6.1.0.301" />
+74-->[com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:16:13-49
+75        <meta-data
+75-->[com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:17:9-19:35
+76            android:name="com.huawei.hms.min_api_level:fido-fido2:fido"
+76-->[com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:18:13-72
+77            android:value="500" /> <!-- 为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据 -->
+77-->[com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:19:13-32
+78        <meta-data
+78-->[com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:15:9-17:46
+79            android:name="com.huawei.hms.client.service.name:base"
+79-->[com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:16:13-67
+80            android:value="base:6.1.0.302" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+80-->[com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:17:13-43
+81        <meta-data
+81-->[com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:20:9-22:33
+82            android:name="com.huawei.hms.min_api_level:base:hmscore"
+82-->[com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:21:13-69
+83            android:value="1" /> <!-- 用于判断是否集成了本lib -->
+83-->[com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:22:13-30
+84        <meta-data
+84-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:32:9-34:35
+85            android:name="availableLoaded"
+85-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:33:13-43
+86            android:value="yes" />
+86-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:34:13-32
+87
+88        <provider
+88-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:36:9-41:20
+89            android:name="com.huawei.hms.update.provider.UpdateProvider"
+89-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:37:13-73
+90            android:authorities="com.android.AuthDemo.hms.update.provider"
+90-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:38:13-71
+91            android:exported="false"
+91-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:39:13-37
+92            android:grantUriPermissions="true" >
+92-->[com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:40:13-47
+93        </provider>
+94        <provider
+94-->[com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:24:9-28:51
+95            android:name="com.huawei.hms.device.provider.CheckHmsProvider"
+95-->[com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:25:13-75
+96            android:authorities="com.android.AuthDemo.hms.device.validate.spoofprovider"
+96-->[com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:26:13-85
+97            android:exported="false"
+97-->[com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:27:13-37
+98            android:grantUriPermissions="false" />
+98-->[com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:28:13-48
+99        <provider
+99-->[com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:11:9-14:40
+100            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+100-->[com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:12:13-90
+101            android:authorities="com.android.AuthDemo.AGCInitializeProvider"
+101-->[com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:13:13-73
+102            android:exported="false" />
+102-->[com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:14:13-37
+103
+104        <service
+104-->[com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:16:9-18:40
+105            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+105-->[com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:17:13-70
+106            android:exported="false" />
+106-->[com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:18:13-37
+107
+108        <activity
+108-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:10:9-21:20
+109            android:name="com.huawei.hms.activity.BridgeActivity"
+109-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:11:13-66
+110            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout|uiMode"
+110-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:12:13-131
+111            android:excludeFromRecents="true"
+111-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:13:13-46
+112            android:exported="false"
+112-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:14:13-37
+113            android:hardwareAccelerated="true"
+113-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:15:13-47
+114            android:screenOrientation="behind"
+114-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:16:13-47
+115            android:theme="@style/Base_Translucent" >
+115-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:17:13-52
+116            <meta-data
+116-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:18:13-20:77
+117                android:name="hwc-theme"
+117-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:19:17-41
+118                android:value="androidhwext:style/Theme.Emui.Translucent" />
+118-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:20:17-74
+119        </activity>
+120        <activity
+120-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:22:9-26:20
+121            android:name="com.huawei.hms.activity.EnableServiceActivity"
+121-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:23:13-73
+122            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+122-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:24:13-106
+123            android:exported="false" >
+123-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:25:13-37
+124        </activity>
+125        <activity
+125-->[com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:21:9-29:20
+126            android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
+126-->[com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:22:13-84
+127            android:configChanges="orientation|screenSize"
+127-->[com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:23:13-59
+128            android:exported="false"
+128-->[com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:24:13-37
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+129-->[com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:25:13-72
+130            <meta-data
+130-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:18:13-20:77
+131                android:name="hwc-theme"
+131-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:19:17-41
+132                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+132-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:20:17-74
+133        </activity>
+134        <activity
+134-->[com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:30:9-38:20
+135            android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity"
+135-->[com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:31:13-84
+136            android:configChanges="orientation|keyboardHidden|screenSize"
+136-->[com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:32:13-74
+137            android:exported="false"
+137-->[com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:33:13-37
+138            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+138-->[com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:34:13-72
+139            <meta-data
+139-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:18:13-20:77
+140                android:name="hwc-theme"
+140-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:19:17-41
+141                android:value="androidhwext:style/Theme.Emui.Translucent" />
+141-->[com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:20:17-74
+142        </activity>
+143
+144        <provider
+144-->[com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:40:9-44:50
+145            android:name="com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider"
+145-->[com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:41:13-83
+146            android:authorities="com.android.AuthDemo.updateSdk.fileProvider"
+146-->[com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:42:13-74
+147            android:exported="false"
+147-->[com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:43:13-37
+148            android:grantUriPermissions="true" />
+148-->[com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:44:13-47
+149
+150        <uses-library
+150-->[com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\2bc3fb95ad7bd45f05479faad6b1fbf2\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:10:9-12:40
+151            android:name="org.apache.http.legacy"
+151-->[com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\2bc3fb95ad7bd45f05479faad6b1fbf2\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:11:13-50
+152            android:required="false" />
+152-->[com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\2bc3fb95ad7bd45f05479faad6b1fbf2\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:12:13-37
+153    </application>
+154
+155</manifest>

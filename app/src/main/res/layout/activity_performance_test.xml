@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activity.PerformanceTestActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="性能测试"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tv_current_scheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="当前测试方案: "
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_test_computation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试计算性能"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_test_storage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试存储性能"
+        android:layout_marginBottom="8dp" />
+        
+    <Button
+        android:id="@+id/btn_compare_schemes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIP32与BIP32-MU方案比较"
+        android:layout_marginBottom="16dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_results"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp" />
+    </ScrollView>
+
+</LinearLayout> 

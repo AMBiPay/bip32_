@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Arkthas\\Downloads\\hms-FIDO-demo-java-master\\hms-FIDO-demo-java-master\\fido2-sample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v29\\values-night-v29.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Arkthas\\.gradle\\caches\\transforms-2\\files-2.1\\3ee2b19f4283f7909772b292e68b0f39\\jetified-ui-6.1.0.302\\res\\values-night-v29\\values-night-v29.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,107,160",
+                        "endColumns": "51,52,51",
+                        "endOffsets": "102,155,207"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Arkthas\\.gradle\\caches\\transforms-2\\files-2.1\\8410ac0a90204ea1155574e3dceadea9\\jetified-update-3.0.4.300\\res\\values-night-v29\\values-night-v29.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,108,162",
+                        "endColumns": "52,53,52",
+                        "endOffsets": "103,157,210"
+                    },
+                    "to": {
+                        "startLines": "5,6,7",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "212,265,319",
+                        "endColumns": "52,53,52",
+                        "endOffsets": "260,314,367"
+                    }
+                }
+            ]
+        }
+    ]
+}

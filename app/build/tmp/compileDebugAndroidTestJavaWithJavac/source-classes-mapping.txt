@@ -1,0 +1,2 @@
+com/android/AuthDemo/test/BuildConfig.java
+ com.android.AuthDemo.test.BuildConfig

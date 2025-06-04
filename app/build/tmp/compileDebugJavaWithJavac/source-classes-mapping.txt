@@ -1,0 +1,73 @@
+com/sample/authenticator/server/IFidoServer.java
+ com.sample.authenticator.server.IFidoServer
+com/sample/authenticator/server/ServerUtils.java
+ com.sample.authenticator.server.ServerUtils
+com/sample/authenticator/server/param/ServerRegInfoResponse.java
+ com.sample.authenticator.server.param.ServerRegInfoResponse
+com/sample/authenticator/server/param/ServerAttestationResultResponseRequest.java
+ com.sample.authenticator.server.param.ServerAttestationResultResponseRequest
+com/sample/authenticator/BuildConfig.java
+ com.sample.authenticator.BuildConfig
+com/sample/authenticator/server/param/ServerRegInfo.java
+ com.sample.authenticator.server.param.ServerRegInfo
+com/sample/authenticator/server/param/ServerStatus.java
+ com.sample.authenticator.server.param.ServerStatus
+com/sample/authenticator/MemoryMonitor.java
+ com.sample.authenticator.MemoryMonitor
+ com.sample.authenticator.MemoryMonitor$1
+com/sample/authenticator/server/param/ServerAuthenticatorSelectionCriteria.java
+ com.sample.authenticator.server.param.ServerAuthenticatorSelectionCriteria
+com/sample/authenticator/server/param/ServerPublicKeyCredentialCreationOptionsResponse.java
+ com.sample.authenticator.server.param.ServerPublicKeyCredentialCreationOptionsResponse
+com/sample/authenticator/server/param/ServerRegInfoRequest.java
+ com.sample.authenticator.server.param.ServerRegInfoRequest
+com/sample/authenticator/server/param/ServerAttestationResultRequest.java
+ com.sample.authenticator.server.param.ServerAttestationResultRequest
+com/sample/authenticator/server/param/ServerResponse.java
+ com.sample.authenticator.server.param.ServerResponse
+com/sample/authenticator/server/param/ServerAssertionResultRequest.java
+ com.sample.authenticator.server.param.ServerAssertionResultRequest
+com/sample/authenticator/server/param/ServerPublicKeyCredentialEntity.java
+ com.sample.authenticator.server.param.ServerPublicKeyCredentialEntity
+com/sample/authenticator/server/param/ServerPublicKeyCredentialDescriptor.java
+ com.sample.authenticator.server.param.ServerPublicKeyCredentialDescriptor
+com/sample/authenticator/server/param/ServerPublicKeyCredentialUserEntity.java
+ com.sample.authenticator.server.param.ServerPublicKeyCredentialUserEntity
+com/sample/authenticator/server/param/ServerPublicKeyCredentialCreationOptionsRequest.java
+ com.sample.authenticator.server.param.ServerPublicKeyCredentialCreationOptionsRequest
+com/sample/authenticator/server/param/ServerAssertionResultResponseRequest.java
+ com.sample.authenticator.server.param.ServerAssertionResultResponseRequest
+com/sample/authenticator/server/FidoServerSimulator.java
+ com.sample.authenticator.server.FidoServerSimulator
+com/sample/authenticator/server/param/ServerRegDeleteRequest.java
+ com.sample.authenticator.server.param.ServerRegDeleteRequest
+com/sample/authenticator/server/ByteUtils.java
+ com.sample.authenticator.server.ByteUtils
+com/sample/authenticator/server/param/ServerPublicKeyCredentialRpEntity.java
+ com.sample.authenticator.server.param.ServerPublicKeyCredentialRpEntity
+com/sample/authenticator/server/param/ServerPublicKeyCredentialParameters.java
+ com.sample.authenticator.server.param.ServerPublicKeyCredentialParameters
+com/sample/authenticator/Fido2DemoMainActivity.java
+ com.sample.authenticator.Fido2DemoMainActivity
+ com.sample.authenticator.Fido2DemoMainActivity$1
+ com.sample.authenticator.Fido2DemoMainActivity$1$1
+ com.sample.authenticator.Fido2DemoMainActivity$10
+ com.sample.authenticator.Fido2DemoMainActivity$11
+ com.sample.authenticator.Fido2DemoMainActivity$12
+ com.sample.authenticator.Fido2DemoMainActivity$13
+ com.sample.authenticator.Fido2DemoMainActivity$14
+ com.sample.authenticator.Fido2DemoMainActivity$15
+ com.sample.authenticator.Fido2DemoMainActivity$16
+ com.sample.authenticator.Fido2DemoMainActivity$17
+ com.sample.authenticator.Fido2DemoMainActivity$18
+ com.sample.authenticator.Fido2DemoMainActivity$19
+ com.sample.authenticator.Fido2DemoMainActivity$2
+ com.sample.authenticator.Fido2DemoMainActivity$2$1
+ com.sample.authenticator.Fido2DemoMainActivity$3
+ com.sample.authenticator.Fido2DemoMainActivity$4
+ com.sample.authenticator.Fido2DemoMainActivity$5
+ com.sample.authenticator.Fido2DemoMainActivity$6
+ com.sample.authenticator.Fido2DemoMainActivity$7
+ com.sample.authenticator.Fido2DemoMainActivity$8
+ com.sample.authenticator.Fido2DemoMainActivity$8$1
+ com.sample.authenticator.Fido2DemoMainActivity$9

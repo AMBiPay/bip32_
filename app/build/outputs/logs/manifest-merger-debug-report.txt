@@ -1,0 +1,396 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:2:1-38:12
+MERGED from [com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:2:1-22:12
+MERGED from [com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:2:1-25:12
+MERGED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:2:1-44:12
+MERGED from [com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:2:1-31:12
+MERGED from [com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:2:1-21:12
+MERGED from [com.huawei.security:securitykit:1.1.1] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\1e56f67f303e95d057552ca59c9631d9\jetified-securitykit-1.1.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\bd995de8dcba65662169b72e66177252\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\9dccd9589b6adbadbd23307ee7ca9beb\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.huawei.hmf:tasks:1.4.1.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\6a93a1ffe00d4e9d099c20bf8d54f9be\jetified-tasks-1.4.1.300\AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\833d7bd9dca9b5ef4b2f78bc191885c0\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\e0a9d17f90425da84456cf90939fac0d\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\e31639c39075f2bf07192f7297a8e199\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\fd9654f8c1354ae28054428abad762d0\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\9a413261766cf65004e6787032e772cb\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\fafb7da738445a4242a1b78360dd3f02\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\726e2efe1e952868f1caf6dbb0e0fd62\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\529d49cd4b80c1e274d4acebb23ab20c\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0c908060cd0ed20d020f1286ef93dfec\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\9dccb568ccc70bbfdbdf709b60f8f71a\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\444ec1f2a868fc90de3d128b3a139e92\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ab592e173a6ac4656840dc59fe2d4be6\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ad4ea53e8d698d4b91331d868651ca20\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\d171a5e71cb7c558bbfec527e77aef4e\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\1901e8dffe532175b0ad8be68e4731ed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\4bdbbaa09a3addd76e2bccbc40cb6183\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\1492fe6291d48563eb9ec413f7e7de38\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\c0ef4c963d79e09e62d9d85bcea0b6bd\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\429069994d39205b83e55dc7eb0dc36d\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ad0075a0eaac063124042e6b2acd42ab\jetified-stats-6.1.0.302\AndroidManifest.xml:2:1-16:12
+MERGED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:2:1-29:12
+MERGED from [com.huawei.hms:log:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\84ee0be2a0b7081c2da63431a7ca344b\jetified-log-6.1.0.302\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:2:1-47:12
+MERGED from [com.huawei.hms:network-grs:5.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\2c258a553330f15959e64fc64bd2f235\jetified-network-grs-5.0.4.300\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:hatool:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\7c99a940c649a5f42b4d924667e047c2\jetified-hatool-6.1.0.302\AndroidManifest.xml:2:1-9:12
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\2bc3fb95ad7bd45f05479faad6b1fbf2\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:2:1-15:12
+MERGED from [com.huawei.hms:componentverifysdk:11.2.1.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\82eec378db45a4bd0f61913a74f83d74\jetified-componentverifysdk-11.2.1.301\AndroidManifest.xml:2:1-13:12
+MERGED from [com.huawei.android.hms:security-encrypt:1.1.5.306] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\49e3cadf39f923a4365c61546f8279fa\jetified-security-encrypt-1.1.5.306\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:network-framework-compat:5.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\418fdc2ef48e3dafcfc98ce4859430eb\jetified-network-framework-compat-5.0.4.300\AndroidManifest.xml:2:1-11:12
+MERGED from [com.huawei.hms:network-common:5.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\9e0556943a4458e2bed5904b42bb60e7\jetified-network-common-5.0.4.300\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:2:1-38:12
+		INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:2:1-38:12
+		INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:4:5-74
+	android:name
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:4:22-71
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:5:22-74
+application
+ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:6:5-37:19
+MERGED from [com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:13:5-20:19
+MERGED from [com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:13:5-20:19
+MERGED from [com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:12:5-23:19
+MERGED from [com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:12:5-23:19
+MERGED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:29:5-42:19
+MERGED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:29:5-42:19
+MERGED from [com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:23:5-29:19
+MERGED from [com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:23:5-29:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:10:5-19:19
+MERGED from [com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:10:5-19:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\9dccb568ccc70bbfdbdf709b60f8f71a\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\9dccb568ccc70bbfdbdf709b60f8f71a\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ab592e173a6ac4656840dc59fe2d4be6\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ab592e173a6ac4656840dc59fe2d4be6\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ad0075a0eaac063124042e6b2acd42ab\jetified-stats-6.1.0.302\AndroidManifest.xml:14:5-20
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ad0075a0eaac063124042e6b2acd42ab\jetified-stats-6.1.0.302\AndroidManifest.xml:14:5-20
+MERGED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:9:5-27:19
+MERGED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:9:5-27:19
+MERGED from [com.huawei.hms:log:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\84ee0be2a0b7081c2da63431a7ca344b\jetified-log-6.1.0.302\AndroidManifest.xml:9:5-20
+MERGED from [com.huawei.hms:log:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\84ee0be2a0b7081c2da63431a7ca344b\jetified-log-6.1.0.302\AndroidManifest.xml:9:5-20
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:20:5-45:19
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:20:5-45:19
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\2bc3fb95ad7bd45f05479faad6b1fbf2\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:9:5-13:19
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\2bc3fb95ad7bd45f05479faad6b1fbf2\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:9:5-13:19
+MERGED from [com.huawei.hms:componentverifysdk:11.2.1.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\82eec378db45a4bd0f61913a74f83d74\jetified-componentverifysdk-11.2.1.301\AndroidManifest.xml:10:5-11:19
+MERGED from [com.huawei.hms:componentverifysdk:11.2.1.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\82eec378db45a4bd0f61913a74f83d74\jetified-componentverifysdk-11.2.1.301\AndroidManifest.xml:10:5-11:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\9dccb568ccc70bbfdbdf709b60f8f71a\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:12:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:13:9-44
+activity#com.sample.authenticator.Fido2DemoMainActivity
+ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:26:9-35:20
+	android:name
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:26:19-80
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:27:13-34:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml:33:27-74
+uses-sdk
+INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+MERGED from [com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:8:5-11:102
+MERGED from [com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:8:5-11:102
+MERGED from [com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:6:5-9:61
+MERGED from [com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:6:5-9:61
+MERGED from [com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.security:securitykit:1.1.1] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\1e56f67f303e95d057552ca59c9631d9\jetified-securitykit-1.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.security:securitykit:1.1.1] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\1e56f67f303e95d057552ca59c9631d9\jetified-securitykit-1.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\bd995de8dcba65662169b72e66177252\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\bd995de8dcba65662169b72e66177252\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\9dccd9589b6adbadbd23307ee7ca9beb\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\9dccd9589b6adbadbd23307ee7ca9beb\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.huawei.hmf:tasks:1.4.1.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\6a93a1ffe00d4e9d099c20bf8d54f9be\jetified-tasks-1.4.1.300\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hmf:tasks:1.4.1.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\6a93a1ffe00d4e9d099c20bf8d54f9be\jetified-tasks-1.4.1.300\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\833d7bd9dca9b5ef4b2f78bc191885c0\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\833d7bd9dca9b5ef4b2f78bc191885c0\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\e0a9d17f90425da84456cf90939fac0d\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\e0a9d17f90425da84456cf90939fac0d\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\e31639c39075f2bf07192f7297a8e199\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\e31639c39075f2bf07192f7297a8e199\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\fd9654f8c1354ae28054428abad762d0\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\fd9654f8c1354ae28054428abad762d0\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\9a413261766cf65004e6787032e772cb\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\9a413261766cf65004e6787032e772cb\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\fafb7da738445a4242a1b78360dd3f02\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\fafb7da738445a4242a1b78360dd3f02\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\726e2efe1e952868f1caf6dbb0e0fd62\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\726e2efe1e952868f1caf6dbb0e0fd62\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\529d49cd4b80c1e274d4acebb23ab20c\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\529d49cd4b80c1e274d4acebb23ab20c\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0c908060cd0ed20d020f1286ef93dfec\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0c908060cd0ed20d020f1286ef93dfec\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\9dccb568ccc70bbfdbdf709b60f8f71a\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\9dccb568ccc70bbfdbdf709b60f8f71a\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\444ec1f2a868fc90de3d128b3a139e92\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\444ec1f2a868fc90de3d128b3a139e92\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ab592e173a6ac4656840dc59fe2d4be6\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ab592e173a6ac4656840dc59fe2d4be6\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ad4ea53e8d698d4b91331d868651ca20\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ad4ea53e8d698d4b91331d868651ca20\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\d171a5e71cb7c558bbfec527e77aef4e\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\d171a5e71cb7c558bbfec527e77aef4e\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\1901e8dffe532175b0ad8be68e4731ed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\1901e8dffe532175b0ad8be68e4731ed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\4bdbbaa09a3addd76e2bccbc40cb6183\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\4bdbbaa09a3addd76e2bccbc40cb6183\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\1492fe6291d48563eb9ec413f7e7de38\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\1492fe6291d48563eb9ec413f7e7de38\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\c0ef4c963d79e09e62d9d85bcea0b6bd\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\c0ef4c963d79e09e62d9d85bcea0b6bd\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\429069994d39205b83e55dc7eb0dc36d\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\429069994d39205b83e55dc7eb0dc36d\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ad0075a0eaac063124042e6b2acd42ab\jetified-stats-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ad0075a0eaac063124042e6b2acd42ab\jetified-stats-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:log:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\84ee0be2a0b7081c2da63431a7ca344b\jetified-log-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:log:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\84ee0be2a0b7081c2da63431a7ca344b\jetified-log-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-grs:5.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\2c258a553330f15959e64fc64bd2f235\jetified-network-grs-5.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-grs:5.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\2c258a553330f15959e64fc64bd2f235\jetified-network-grs-5.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:hatool:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\7c99a940c649a5f42b4d924667e047c2\jetified-hatool-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.hms:hatool:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\7c99a940c649a5f42b4d924667e047c2\jetified-hatool-6.1.0.302\AndroidManifest.xml:5:5-7:41
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\2bc3fb95ad7bd45f05479faad6b1fbf2\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\2bc3fb95ad7bd45f05479faad6b1fbf2\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:7:5-43
+MERGED from [com.huawei.hms:componentverifysdk:11.2.1.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\82eec378db45a4bd0f61913a74f83d74\jetified-componentverifysdk-11.2.1.301\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.hms:componentverifysdk:11.2.1.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\82eec378db45a4bd0f61913a74f83d74\jetified-componentverifysdk-11.2.1.301\AndroidManifest.xml:6:5-8:41
+MERGED from [com.huawei.android.hms:security-encrypt:1.1.5.306] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\49e3cadf39f923a4365c61546f8279fa\jetified-security-encrypt-1.1.5.306\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.android.hms:security-encrypt:1.1.5.306] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\49e3cadf39f923a4365c61546f8279fa\jetified-security-encrypt-1.1.5.306\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-framework-compat:5.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\418fdc2ef48e3dafcfc98ce4859430eb\jetified-network-framework-compat-5.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-framework-compat:5.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\418fdc2ef48e3dafcfc98ce4859430eb\jetified-network-framework-compat-5.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-common:5.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\9e0556943a4458e2bed5904b42bb60e7\jetified-network-common-5.0.4.300\AndroidManifest.xml:7:5-9:41
+MERGED from [com.huawei.hms:network-common:5.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\9e0556943a4458e2bed5904b42bb60e7\jetified-network-common-5.0.4.300\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:11:9-99
+	android:targetSdkVersion
+		INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Arkthas\Downloads\hms-FIDO-demo-java-master\hms-FIDO-demo-java-master\fido2-sample\app\src\main\AndroidManifest.xml
+meta-data#com.huawei.hms.client.service.name:fido-fido2
+ADDED from [com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:14:9-16:52
+	android:value
+		ADDED from [com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:16:13-49
+	android:name
+		ADDED from [com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:15:13-73
+meta-data#com.huawei.hms.min_api_level:fido-fido2:fido
+ADDED from [com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:17:9-19:35
+	android:value
+		ADDED from [com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:19:13-32
+	android:name
+		ADDED from [com.huawei.hms:fido-fido2:6.1.0.301] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\0bdc7e0143c8bbc92c1eb4d394cbe1d5\jetified-fido-fido2-6.1.0.301\AndroidManifest.xml:18:13-72
+uses-permission#android.permission.INTERNET
+ADDED from [com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ad0075a0eaac063124042e6b2acd42ab\jetified-stats-6.1.0.302\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ad0075a0eaac063124042e6b2acd42ab\jetified-stats-6.1.0.302\AndroidManifest.xml:10:5-67
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:11:5-67
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from [com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:10:22-64
+meta-data#com.huawei.hms.client.service.name:base
+ADDED from [com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:15:9-17:46
+	android:value
+		ADDED from [com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:16:13-67
+meta-data#com.huawei.hms.min_api_level:base:hmscore
+ADDED from [com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:20:9-22:33
+	android:value
+		ADDED from [com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:22:13-30
+	android:name
+		ADDED from [com.huawei.hms:base:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b20a9f768749ba5fe26f9bbc6feda5aa\jetified-base-6.1.0.302\AndroidManifest.xml:21:13-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ad0075a0eaac063124042e6b2acd42ab\jetified-stats-6.1.0.302\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:stats:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\ad0075a0eaac063124042e6b2acd42ab\jetified-stats-6.1.0.302\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:12:5-79
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:14:5-83
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:15:5-83
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:15:5-83
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:14:22-80
+uses-permission#com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:16:5-106
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:18:5-106
+MERGED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:18:5-106
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:16:22-103
+queries
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:18:5-27:15
+intent
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:19:9-21:18
+action#com.apptouch.intent.action.update_hms
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:20:13-76
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:20:21-73
+package#com.hisilicon.android.hiRMService
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:26:9-69
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:26:18-66
+meta-data#availableLoaded
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:32:9-34:35
+	android:value
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:34:13-32
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:33:13-43
+provider#com.huawei.hms.update.provider.UpdateProvider
+ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:36:9-41:20
+	android:grantUriPermissions
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:40:13-47
+	android:authorities
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:38:13-71
+	android:exported
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [com.huawei.hms:availableupdate:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\b12a0b8764643fa8914cb3e068cd09a2\jetified-availableupdate-6.1.0.302\AndroidManifest.xml:37:13-73
+provider#com.huawei.hms.device.provider.CheckHmsProvider
+ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:24:9-28:51
+	android:grantUriPermissions
+		ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:28:13-48
+	android:authorities
+		ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:26:13-85
+	android:exported
+		ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [com.huawei.hms:device:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\afd985206c7fda733a078fc70bd9b7ba\jetified-device-6.1.0.302\AndroidManifest.xml:25:13-75
+provider#com.huawei.agconnect.core.provider.AGConnectInitializeProvider
+ADDED from [com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:11:9-14:40
+	android:authorities
+		ADDED from [com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:13:13-73
+	android:exported
+		ADDED from [com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:12:13-90
+service#com.huawei.agconnect.core.ServiceDiscovery
+ADDED from [com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [com.huawei.agconnect:agconnect-core:1.5.0.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\be0e1859ebde08274cb2a43602999114\jetified-agconnect-core-1.5.0.300\AndroidManifest.xml:17:13-70
+activity#com.huawei.hms.activity.BridgeActivity
+ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:10:9-21:20
+	android:screenOrientation
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:16:13-47
+	android:excludeFromRecents
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:13:13-46
+	android:hardwareAccelerated
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:15:13-47
+	android:exported
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:14:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:12:13-131
+	android:theme
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:17:13-52
+	android:name
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:11:13-66
+meta-data#hwc-theme
+ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:18:13-20:77
+	android:value
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:20:17-74
+	android:name
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:19:17-41
+activity#com.huawei.hms.activity.EnableServiceActivity
+ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:22:9-26:20
+	android:exported
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:25:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:24:13-106
+	android:name
+		ADDED from [com.huawei.hms:ui:6.1.0.302] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\3ee2b19f4283f7909772b292e68b0f39\jetified-ui-6.1.0.302\AndroidManifest.xml:23:13-73
+activity#com.huawei.updatesdk.service.otaupdate.AppUpdateActivity
+ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:24:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:23:13-59
+	android:theme
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:25:13-72
+	android:name
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:22:13-84
+activity#com.huawei.updatesdk.support.pm.PackageInstallerActivity
+ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:30:9-38:20
+	android:exported
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:33:13-37
+	android:configChanges
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:32:13-74
+	android:theme
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:31:13-84
+provider#com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider
+ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:40:9-44:50
+	android:grantUriPermissions
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:44:13-47
+	android:authorities
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:42:13-74
+	android:exported
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.huawei.hms:update:3.0.4.300] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\8410ac0a90204ea1155574e3dceadea9\jetified-update-3.0.4.300\AndroidManifest.xml:41:13-83
+uses-library#org.apache.http.legacy
+ADDED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\2bc3fb95ad7bd45f05479faad6b1fbf2\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:10:9-12:40
+	android:required
+		ADDED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\2bc3fb95ad7bd45f05479faad6b1fbf2\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.huawei.android.hms:security-ssl:1.1.5.306] C:\Users\Arkthas\.gradle\caches\transforms-2\files-2.1\2bc3fb95ad7bd45f05479faad6b1fbf2\jetified-security-ssl-1.1.5.306\AndroidManifest.xml:11:13-50
