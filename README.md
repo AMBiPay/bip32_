@@ -1,6 +1,6 @@
-# FIDO2 Protocol Implementation Sample
+# Implementation of bip32PA Variants for FIDO2
 
-This project implements various FIDO2 protocol schemes for authentication and registration. It provides a comprehensive test environment for different FIDO2 protocol implementations.
+This project implements several passwordless authentication schemes (i.e., bip32PA variants) for FIDO2, which provides a comprehensive test environment for these schemes.
 
 ## Project Structure
 
